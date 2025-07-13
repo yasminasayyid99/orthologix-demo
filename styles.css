@@ -1,26 +1,193 @@
 body {
     background-color: #f7f8fa;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    color: #4b2e83;
+
+.site-header {
+    background: #4b2e83;
+    color: #fff;
+    padding: 1.5em 0 1em 0;
+    margin-bottom: 2em;
+}
+.site-header .container {
+    max-width: 900px;
+    margin: 0 auto;
     text-align: center;
 }
-ul {
-    max-width: 400px;
-    margin: 2em auto;
-    background: #e0e0f8;
-    border-radius: 8px;
-    padding: 1em 2em;
+.logo {
+    width: 62px;
+    margin-bottom: 0.5em;
 }
-a {
-    color: #4b2e83;
-    display: block;
-    text-align: center;
-    margin-top: 2em;
-    font-weight: bold;
+.site-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.site-header .subtitle {
+    font-size: 1.15em;
+    margin-bottom: 1em;
+    color: #c8bfff;
+}
+.site-header nav a {
+    color: #fff;
+    margin: 0 1.2em;
     text-decoration: none;
+    font-size: 1.05em;
+    font-weight: 600;
+    opacity: 0.9;
+    transition: opacity 0.2s;
 }
-a:hover {
+.site-header nav a:hover {
     text-decoration: underline;
+    opacity: 1;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.hero {
+    background: #edeaff;
+    padding: 2em 0;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 2.5em;
+}
+.hero h2 {
+    color: #4b2e83;
+    margin-bottom: 0.8em;
+    font-size: 2em;
+    font-weight: 700;
+}
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 1.2em auto;
+    font-size: 1.1em;
+}
+.cta-btn {
+    display: inline-block;
+    background: #4b2e83;
+    color: #fff;
+    padding: 0.9em 2.3em;
+    border-radius: 30px;
+    font-size: 1.12em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+    margin-top: 0.5em;
+    border: none;
+    cursor: pointer;
+}
+.cta-btn:hover {
+    background: #372060;
+}
+
+.features-section {
+    margin: 3em 0 2em 0;
+}
+.features-section h2 {
+    text-align: center;
+    margin-bottom: 1.2em;
+    color: #4b2e83;
+}
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+}
+.feature-card {
+    background: #f1effa;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(75,46,131,0.06);
+    padding: 2em 1.5em;
+    width: 240px;
+    min-height: 170px;
+    text-align: center;
+}
+.feature-card h3 {
+    color: #4b2e83;
+    margin-bottom: 0.6em;
+    font-size: 1.18em;
+}
+.feature-card p {
+    font-size: 1em;
+    color: #222;
+}
+
+.testimonial-section {
+    background: #edeaff;
+    padding: 2em 0;
+    margin-bottom: 2.5em;
+    border-radius: 12px;
+}
+.testimonial-section h2 {
+    text-align: center;
+    color: #4b2e83;
+}
+blockquote {
+    font-style: italic;
+    color: #2c225b;
+    background: #fff;
+    border-left: 5px solid #4b2e83;
+    padding: 1em 2em;
+    margin: 1.2em auto 0 auto;
+    max-width: 600px;
+    border-radius: 6px;
+}
+blockquote cite {
+    display: block;
+    font-style: normal;
+    margin-top: 0.8em;
+    font-weight: bold;
+    color: #766bb0;
+    text-align: right;
+}
+
+.contact-section {
+    padding: 2.5em 0;
+    text-align: center;
+}
+.contact-section h2 {
+    color: #4b2e83;
+    margin-bottom: 1em;
+}
+form {
+    background: #f1effa;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2em 1.5em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    box-shadow: 0 1px 5px rgba(75,46,131,0.05);
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 0.8em;
+    border: 1px solid #b2b2d6;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: inherit;
+}
+button[type="submit"] {
+    margin-top: 0.5em;
+}
+
+footer {
+    background: #4b2e83;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0 1em 0;
+    margin-top: 2em;
+    font-size: 1em;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
