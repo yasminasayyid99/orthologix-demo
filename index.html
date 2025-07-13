@@ -2,17 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>OrthoLogix Tracker</title>
+    <title>OrthoLogix | Post-Op Surgical Outcome Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>OrthoLogix: Post-Op Surgical Outcome Tracker</h1>
-    <p>This is a demo of the OrthoLogix web app for orthopedic surgeons.</p>
-    <ul>
-        <li>Track cases</li>
-        <li>Log complications</li>
-        <li>View outcome trends</li>
-    </ul>
-    <a href="about.html">About OrthoLogix</a>
+    <header class="site-header">
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Orthopedic-logo.png" alt="OrthoLogix Logo" class="logo">
+            <h1>OrthoLogix</h1>
+            <p class="subtitle">Empowering Orthopedic Outcomes, One Patient at a Time</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="faq.html">FAQ</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Subscription-Based Surgical Outcome Tracker for Orthopedic Surgeons</h2>
+                <p>
+                    OrthoLogix is a secure, user-friendly web application designed for orthopedic surgeons and clinics to log, track, and analyze post-operative outcomes. Gain actionable insights to improve care quality, benchmark performance, and drive better patient results.
+                </p>
+                <a href="#contact" class="cta-btn">Request Early Access</a>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Case Logging</h3>
+                        <p>Securely log surgical procedures, implants, and approaches with minimal friction using structured forms.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Complication Tracking</h3>
+                        <p>Track post-op complications (infection, DVT, dislocation, etc.) for quality improvement and compliance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Outcome Analytics</h3>
+                        <p>Upload outcome scores (HOOS, KOOS, VAS) and visualize trends with interactive dashboards.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Admin & QA Tools</h3>
+                        <p>Aggregate data, benchmark surgeons, and generate QA/export reports for administrators and researchers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial-section">
+            <div class="container">
+                <h2>What Surgeons Are Saying</h2>
+                <blockquote>
+                    “OrthoLogix has transformed the way I track outcomes and spot trends in my practice. The dashboard is a game changer!”
+                    <cite>— Dr. Alexandra Kim, Orthopedic Surgeon</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit" class="cta-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2025 OrthoLogix. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
